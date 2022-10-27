@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,22 @@
     <title>Document</title>
     <script src="/socket.io/socket.io.js"></script>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    hello
+    <form id="form">
+        <label>Enter your name: <input type="text" name="name"></label>
+        <button>start</button>
+    </form>
+
+    <form id="message-form" class="hidden">
+        <label>Enter your message: <input type="text" name="message"></label>
+        <button>send</button>
+    </form>
+    <p id="output">
+
+    </p>
 </body>
+
 </html>

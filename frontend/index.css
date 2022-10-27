@@ -1,0 +1,7 @@
+.hidden {
+  display: none;
+}
+
+#output {
+  white-space: pre;
+}
